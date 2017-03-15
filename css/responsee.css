@@ -11,10 +11,7 @@
   margin:0;
   }
 body {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../img/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background: url(../img/background.png);
   font-size:100%;
   font-family:"Open Sans",Arial,sans-serif;
   color:#444;
@@ -73,7 +70,7 @@ form {line-height:1.4em;}
 nav {
   display:block;
   width:100%;
-  background:#9C27B0;
+  background: #90B800;
 }
 .line::after, nav::after, .center::after, .box::after, .margin::after {clear: both;}
 .line::before, .line::after, nav::before, nav::after, .center::before, .center::after, .box::before, .box::after, .margin::before, .margin::after {
@@ -136,7 +133,7 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   font-size:0.7em;
   margin:0 0.625em;
 }
-.top-nav .active-item a {background:none repeat scroll 0 0 #4A148C;}
+.top-nav .active-item a {background:none repeat scroll 0 0 #42B72A;}
 .aside-nav > ul > li.active-item > a:link, .aside-nav > ul > li.active-item > a:visited {
   background:none repeat scroll 0 0 #999;
   color:#fff;
@@ -300,7 +297,7 @@ nav {
   cursor:pointer;
   line-height:3em;
 }
-.top-nav li a {background:none repeat scroll 0 0 #4a4a4a;}
+.top-nav li a {background:none repeat scroll 0 0 #90B800;}
 .top-nav > ul {
   height:0;
   max-width:100%;
@@ -322,7 +319,7 @@ nav {
   padding:0;
 }
 .top-nav li a {
-  border-top:1px solid #333;
+  text-align: center;
   color:#fff;
   display:block;
   padding:0.625em;
@@ -488,4 +485,10 @@ nav {
   float:none;
   margin:0 auto;
   display:block;
+}
+
+
+.service:hover{
+  transition: all .3s ease-in-out;
+  background: #EEE;
 }
