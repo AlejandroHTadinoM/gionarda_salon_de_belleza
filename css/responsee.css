@@ -14,10 +14,10 @@ body {
   background: url(../img/background.png);
   font-size:100%;
   font-family:"Open Sans",Arial,sans-serif;
-  color:#444;
+  color:#263238;
   }
 h1, h2, h3, h4, h5, h6 {
-  color:#444;
+  color:#263238;
   font-weight: normal;
   margin:0.2em 0 0.2em 0;
 }
@@ -29,7 +29,7 @@ h5 {font-size:1em;}
 h6 {font-size:0.9em;}
 a, a:link, a:visited, a:hover, a:active {
   text-decoration:none;
-  color:#444;
+  color:#263238;
 }
 img {
   border:0;
@@ -70,7 +70,7 @@ form {line-height:1.4em;}
 nav {
   display:block;
   width:100%;
-  background: #90B800;
+  background: #009688;
 }
 .line::after, nav::after, .center::after, .box::after, .margin::after {clear: both;}
 .line::before, .line::after, nav::before, nav::after, .center::before, .center::after, .box::before, .box::after, .margin::before, .margin::after {
@@ -80,7 +80,7 @@ nav {
 .top-nav ul {padding:0;}
 .top-nav ul ul {
   position:absolute;
-  background:#4A148C;
+  background: #004D40;
 }
 .top-nav li {
   float:left;
@@ -97,7 +97,7 @@ nav {
   min-width:100%;
   padding:0.625em;
 }
-.top-nav li a:hover, .aside-nav li a:hover {background:#4A148C;}
+.top-nav li a:hover, .aside-nav li a:hover {background: #004D40;}
 .top-nav li ul {display:none;}
 .top-nav li ul li {
   float:none;
@@ -133,7 +133,7 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   font-size:0.7em;
   margin:0 0.625em;
 }
-.top-nav .active-item a {background:none repeat scroll 0 0 #42B72A;}
+.top-nav .active-item a {background:none repeat scroll 0 0 #004D40;}
 .aside-nav > ul > li.active-item > a:link, .aside-nav > ul > li.active-item > a:visited {
   background:none repeat scroll 0 0 #999;
   color:#fff;
@@ -282,7 +282,7 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
 .l-7 {width:58.3333%;}
 .l-8 {width:66.6666%;}
 .l-9 {width:75%;}
-.l-10 {width:83.3333%;}
+.l-10 {width:83.3333%;}#009688
 .l-11 {width:91.6666%;}
 .l-12 {width:100%;}
 .right {float:right;}
@@ -297,7 +297,7 @@ nav {
   cursor:pointer;
   line-height:3em;
 }
-.top-nav li a {background:none repeat scroll 0 0 #90B800;}
+.top-nav li a {background:none repeat scroll 0 0 #009688;}
 .top-nav > ul {
   height:0;
   max-width:100%;
