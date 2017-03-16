@@ -73,7 +73,6 @@ input[type=email]:focus{
 .clicform input[type=reset],
 input[type=submit]{
   height:50px;
-  border:none;
   box-shadow:0 5px 3px #ccc;
   font-family:Roboto;
   font-weight:700;
@@ -81,9 +80,35 @@ input[type=submit]{
   border-radius:3px
 }
 .clicform .reset{
-  background-color:#f6c504
+  background-color: transparent;
+  color: #689F38;
+  border: 1px solid #689F38;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
+
+.clicform .reset:hover {
+  background-color: #689F38;
+  color: #FFF;
+}
+
 .clicform .enviar{
-  background-color:#D500F9;
-  color:#fff
+  background-color: transparent;
+  color:#00796B;
+  border: 1px solid #00796B;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  }
+
+.clicform .enviar:hover {
+  background-color: #00796B;
+  color: #FFF;
 }

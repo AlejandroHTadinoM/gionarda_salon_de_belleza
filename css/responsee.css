@@ -481,14 +481,23 @@ nav {
 .s-11 {width:91.6666%;}
 .s-12 {width:100%}
 }
+
 .center {
   float:none;
   margin:0 auto;
   display:block;
 }
 
-
 .service:hover{
-  transition: all .3s ease-in-out;
+  transition: all .9s ease-in-out;
   background: #EEE;
+  border-radius: 1rem;
+  transform: scale(1.1);
+}
+
+.service img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
 }
